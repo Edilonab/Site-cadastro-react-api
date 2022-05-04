@@ -66,11 +66,17 @@ export const Cadastrar = () => {
         {status.type === 'success' ? <AlertSuccess>{status.mensagem}</AlertSuccess> : ""}
 
         <Form onSubmit={cadProduto}>
-          <Label>Título: </Label>
-          <Input type="text" name="titulo" placeholder="Título do produto" onChange={valorInput} /><br /><br />
+          <Label>Nome </Label>
+          <Input type="text" name="titulo" placeholder="Fulano Beltrano de Oliveira da Silva" onChange={valorInput} /><br /><br />
 
-          <Label>Descrição: </Label>
-          <Input type="text" name="descricao" placeholder="Descrição do produto" onChange={valorInput} /><br /><br />
+          <Label>E-mail </Label>
+          <Input type="text" name="descricao" placeholder="fulnobos@gmail.com" onChange={valorInput} /><br /><br />
+
+          <Label>Nascimento </Label>
+          <Input type="text" name="descricao" placeholder="13/10/1995" onChange={valorInput} /><br /><br />
+
+          <Label>Telefone </Label>
+          <Input type="num" name="descricao" placeholder="(31) 9 9666-1111" onChange={valorInput} /><br /><br />
 
           <ButtonSuccess type="submit">Cadastrar</ButtonSuccess>
 
