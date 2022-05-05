@@ -23,21 +23,22 @@ export const Home = () => {
   return (
     <Container>
       <ConteudoTitulo>
-        <Titulo>Listar</Titulo>
-        <BotaoAcao>
-          <Link to="/cadastrar">
-            <ButtonSuccess>Cadastrar</ButtonSuccess>
-          </Link>
-        </BotaoAcao>
+        <Titulo>LISTA DE CADRASTRO</Titulo>
+       //* <BotaoAcao>
+         // <Link to="/cadastrar">
+         //   <ButtonSuccess>Cadastrar</ButtonSuccess>
+          //</Link>
+       // </BotaoAcao>*/
       </ConteudoTitulo>
+      
       
       <Table>
         <thead>
           <tr>
-            <th>ID</th>
-            <th>Título</th>
-            <th>Descrição</th>
-            <th>Ações</th>
+            <th>NOME</th>
+            <th>E-MAIL</th>
+            <th>NASCIMENTO</th>
+            <th>TELEFONE</th>
           </tr>
         </thead>
         <tbody>
@@ -53,4 +54,6 @@ export const Home = () => {
       </Table>
     </Container>
   );
+  
+    
 }
