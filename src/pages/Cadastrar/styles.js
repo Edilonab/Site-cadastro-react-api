@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    max-width: 960px;
+    //max-width: 960px;
     margin: 20px auto;
-    box-shadow: 0 0 1em #6c757d;
+    //box-shadow: 0 0 1em #6c757d;
 `;
 
 export const ConteudoTitulo = styled.section`
@@ -32,6 +32,7 @@ export const ButtonInfo = styled.button`
 export const Titulo = styled.h1`
     color: #3e3e3e;
     font-size: 23px;
+    //font-Roboto: Regular
 `;
 
 export const AlertSuccess = styled.p`
@@ -53,8 +54,8 @@ export const AlertDanger = styled.p`
 `;
 
 export const ConteudoForm = styled.section`
-    max-width: 960px;
-    padding: 10px 30px 30px;
+   // max-width: 960px;
+    //padding: 10px 30px 30px;
 `;
 
 export const Form = styled.form`

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.section`
     max-width: 960px;
     margin: 20px auto;
-    box-shadow: 0 0 1em #6c757d;
+    //box-shadow: 0 0 1em #6c757d;
     padding: 0px 20px 20px;
 `;
 
@@ -13,10 +13,10 @@ export const ConteudoTitulo = styled.section`
 `;
 
 export const BotaoAcao = styled.section`
-    margin: 25px 0px;
+    //margin: 25px 0px;
 `;
 
-export const ButtonSuccess = styled.button`
+    export const ButtonSuccess = styled.button`
     background-color: #fff;
     color: #198754;
     padding: 8px 12px;
